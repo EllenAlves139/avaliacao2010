@@ -1,0 +1,55 @@
+.logotipo{
+    width: 50px;
+    height: auto;
+}
+
+.lupa{
+    width: 20px;
+    height: auto;
+}
+
+
+
+.btn-color{
+  color: white;
+    
+ 
+  
+}
+
+.profile-image-pic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+
+
+.cardbody-color{
+ background-color: #D6D6D6;
+}
+
+a{
+  text-decoration: none;
+    
+}
+
+
+.containerrodapé{
+    /* background-color: #7113B9; */
+    color: rgb(41, 100, 118);
+   text-align: center;
+    
+    
+}
+
+body {
+    background-image: url("../img/foto2.jpg");
+}
+
+.containerrodapé{
+    background-color: rgba(255, 255, 255, 0.717);
+    /* color: rgb(228, 229, 229); */
+   text-align: center;
+    
+}

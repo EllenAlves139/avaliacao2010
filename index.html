@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="favicon/morte.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Projeto WebSite</title>
+</head>
+<body>
+    <!-- navbar -->
+<section id="product" class="contentSection">
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="logotipo"     src="img/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link -toggle" href="contato.html" role="button" data-bs-toggle="" aria-expanded="false">
+            Contato
+          </a>
+        </li>
+        <li class="nav-item Menu">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="login.html" target="_blank">Novo Usuário</a></li>
+            <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+            <li><a class="dropdown-item" href=""></a></li>
+          
+            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit"><img  class="lupa"  src="favicon/lupa.png" alt=""></button>
+      </form>
+    </div>
+  </div>
+</nav>
+             <!-- carrossel -->
+ 
+<div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="img/banner supernatural.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img/banner supernatural 2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img/banner supernatural 3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+          <!-- banner empresas -->
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col">
+       <img src="img/banner supernatural 5.jpg" class="img-fluid" alt="...">
+      </div>
+    </div>
+  </div>
+
+        <!-- conteúdo principal -->
+  <div class="container mt-3 mb-3">
+  <div class="row">
+    <div class="col">
+<img src="img/armas2.jpg" alt="">
+    </div>
+    <div class="col">
+<img src="img/impala2.jpg" alt="">
+    </div>
+  </div>
+  </div>
+            <!-- cardGrid -->
+     <section id="product" class="contentSection">
+      <h3 class="d-flex justify-content-center" id="contentSection">Seção de Produtos</h3>
+    <div class="container d-flex justify-content-between">        
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4 align-content-center">
+      <img src="img/Impala 1967 Supernatural.webp" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Carro Fundido Sob Pressão Chevy Impala De Supernatural </h5>
+        <p class="card-text">R$ 382,05</p>
+             <a href="#" class="btn btn-primary">Compre Já</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4 align-content-center">
+      <img src="img/impala 67.webp" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Greenlight Impala Supernatural 1967 Impala </h5>
+        <p class="card-text">R$ 450</p>
+         <a href="#" class="btn btn-primary">Compre Já</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+     </section>
+          
+
+
+      <!-- card de produtos -->
+       <!-- card1 -->
+        
+      <div class="container d-flex gap-3 mt-3 justify-content-center" >
+      <div class="card" style="width: 18rem;">
+  <img src="img/Dean Winchester.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Funko Pop Supernatural Dean Winchester</h5>
+    <p class="card-text">R$ 199,90</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+               <!-- card2 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/Sam Winchester.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Funko Pop Supernatural Sam Fbi</h5>
+    <p class="card-text">R$ 1.099,90</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+                <!-- card3 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/Crowley.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Funko Pop Supernatural Crowley</h5>
+    <p class="card-text">R$ 199,99</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+          
+                <!-- card4 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/Castiel.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Funko Pop Supernatural Castiel Com Asas</h5>
+    <p class="card-text">R$ 849,00</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+</div>
+                <!-- card5 -->
+  <div class="container d-flex gap-3 mt-3" >
+<div class="card" style="width: 18rem;">
+  <img src="img/Bobby.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Funko Pop Bobby Singer Supernatural </h5>
+    <p class="card-text">R$ 339,90</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+                <!-- card6 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/Charlie.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Funko Pop Charlie</h5>
+    <p class="card-text">R$ 782–R$ 885</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+                <!-- card7 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/Colt.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">The Colt em Tamanho Real</h5>
+    <p class="card-text">R$ 549,90</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+                <!-- card8 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/Faca demoniaca.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Faca da Ruby com Suporte Expositor</h5>
+    <p class="card-text">R$ 120,00</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+</div>
+
+                <!-- card9 -->
+<div class="container d-flex gap-3 mt-3"> 
+    <div class="card" style="width: 18rem;">
+  <img src="img/conjunto.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cordão Com Amuleto do Dean Winchester supernatural</h5>
+    <p class="card-text">R$ 12,99</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+
+                <!-- card10 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/caneca azul.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Kit Com 2 Canecas Temática Sobrenatural </h5>
+    <p class="card-text">R$ 48,90 - R$ 51,90</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+
+                <!-- card11 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/camisa.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Camiseta Unissex Supernatural Série Sobrenatural 100% Algodão</h5>
+    <p class="card-text">R$ 36,75 - R$ 64,30</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+                <!-- card12 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/pulseira.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Pulseira Contra Mal Olhado Supernatural</h5>
+    <p class="card-text">R$ 26,62</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+</div>
+  
+     <!-- card13 -->
+<div class="container d-flex gap-3 mt-3"> 
+    <div class="card" style="width: 18rem;">
+  <img src="img/Carteira winchester.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Carteira Supernatural</h5>
+    <p class="card-text">R$ 99,90</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+
+                <!-- card14 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/isqueiro.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Isqueiro Gravado Sobrenatural: Presente de Sam e Dean</h5>
+    <p class="card-text">R$ 930,00</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+
+                <!-- card15 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/canecas.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Canecas do Dean e Sam</h5>
+    <p class="card-text">R$ 45,00</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+                <!-- card16 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/Adaga de Caim.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Adaga De Caim</h5>
+    <p class="card-text">R$ 100,00</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+</div>
+
+     <!-- card17 -->
+<div class="container d-flex gap-3 mt-3"> 
+    <div class="card" style="width: 18rem;">
+  <img src="img/aparador-supernatura.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Aparador de Livro e DVDs Supernatural Série Irmãos Winchester Decoração Presente Dean Sam Biblioteca</h5>
+    <p class="card-text">R$ 149,90</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+
+                <!-- card18 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/colar de supernatural.avif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Colar Sol Pentagrama Supernatural Serie Prateado Couro</h5>
+    <p class="card-text">R$ 52,15</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+
+                <!-- card19 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/quadro.avif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Quadro decorativo Supernatural - Impala Baby - 130x60 Moldura Preta 2x2</h5>
+    <p class="card-text">R$ 331,00</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+                <!-- card20 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/top.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Regata Cropped Deluxe Supernatural Feminino - Preto</h5>
+    <p class="card-text">R$ 19,90</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+</div>
+
+     <!-- card21 -->
+<div class="container d-flex gap-3 mt-3"> 
+    <div class="card" style="width: 18rem;">
+  <img src="img/quadro 2.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"> Quadro decorativo Supernatural em MDF 50 x 35 cm</h5>
+    <p class="card-text">R$ 39,90</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+
+                <!-- card22 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/camisa 2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Camisa, Camiseta Winchester Brothers Supernatural Dean Sam</h5>
+    <p class="card-text">R$ 34,50</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+
+                <!-- card23 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/camisa 3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Camiseta Supernatural Winchester - Série - UNISSEX</h5>
+    <p class="card-text">R$ 36,99</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+                <!-- card24 -->
+<div class="card" style="width: 18rem;">
+  <img src="img/camisa 4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Camiseta T-Shirt Dean Winchester The Road So Far - Supernatural Unissex Algodão</h5>
+    <p class="card-text">R$ 44,99</p>
+    <a href="#" class="btn btn-primary">Compre Já</a>
+  </div>
+</div>
+</div>
+
+
+
+
+
+ <section class=" container contentimg">
+    <div class="row mt-3 mb-3 ">
+    <div class="col" >
+      <img src="img/Billy.jpg" class="img-thumbnail" alt="...">
+    </div>
+    <div class="col">
+     <img src="img/Amara.webp" class="img-thumbnail" alt="...">
+    </div>
+    <div class="col">
+      <img src="img/Jack kline.jpg" class="img-thumbnail" alt="...">
+    </div>
+  </div>
+ </section>
+
+
+ 
+
+        
+   
+
+   <!-- footer -->
+  <footer class="containerrodapé gap-4 mt-2 p-3">
+    <div class="row">
+     <div class="col">
+      <h5>Informações adicionais</h5>
+      <ul class="list-unstyled">
+        <li><a href="" class="link-secondary">Proteção de dados</a> </li>
+        <li><a href=""  class="link-secondary">Política de privacidade</a> </li>
+        <li><a href=""  class="link-secondary">Termos de uso</a></li>
+        <li><a href=""  class="link-secondary">Mapa do site</a></li>
+        
+      </ul>
+     </div>
+      <div class="col">
+        <h5>Política de devolução</h5>
+        <ul class="list-unstyled">
+          <li><a href="" class="link-secondary">Termos de devolução</a></li>
+          <li><a href="" class="link-secondary">Politica de reembolso</a></li>
+          <li><a href="" class="link-secondary">Garantia de produtos</a></li>
+          <li><a href="" class="link-secondary">Contato para suporte</a></li>
+        </ul>
+    </div>
+    <div class="col">
+      <h5>Ajuda</h5>
+      <ul class="list-unstyled">
+        <li><a href="" class="link-secondary">Atendimento em libras</a></li>
+        <li><a href="" class="link-secondary">Perguntas frequentes</a></li>
+        <li><a href="" class="link-secondary">Formas de pagamento</a></li>
+        <li><a href="" class="link-secondary">Prazo de entrega</a></li>
+      </ul> 
+    </div>
+     
+    <div class="col">
+
+      <h5 class="list-unstyled d-flex justify-content-center">Redes Sociais</h5>
+
+      <ul class="list-unstyled d-flex justify-content-center">
+        <li><a href=""><img class="Favimg" src="favicon/whatsapp.png" alt=""></a></li>
+        <li><a href=""><img class="Favimg"  src="favicon/instagram.png" alt=""></a></li>
+        <li><a href=""><img  class="Favimg"  src="favicon/pinterest.png" alt=""></a></li>
+        <li><a href=""><img class="Favimg" src="favicon/twitter.png" alt=""></a></li>
+        
+      </ul >
+      <div class="col">
+        <ul class="list-unstyled">
+      <li><a href=""  class="link-secondary">Trabalhe com a gente</a></li>
+      </ul>
+      </div>
+      
+    </div>
+
+  </footer>
+  
+  
+    <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+</body>
+</html>
