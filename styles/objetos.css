@@ -1,0 +1,25 @@
+.logotipo{
+    width: 50px;
+    height: auto;
+}
+
+.lupa{
+    width: 20px;
+    height: auto;
+}
+
+.containerrodapé{
+    background-color: rgba(255, 255, 255, 0.717);
+    color: rgb(38, 125, 152);
+   text-align: center;
+    
+    
+}
+.containerrodapé ul li {
+    list-style: none;
+    color: white;
+}
+
+body {
+    background-image: url("../img/foto2.jpg");
+}
