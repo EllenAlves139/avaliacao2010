@@ -20,8 +20,15 @@ img{
 }
 
 .Favimg{
-    width: 30px;
-    height: auto;
+    width: 35px;
+    height: 35px;
+    
+  
+}
+
+.Favimg1{
+    width: 80px;
+    height: 80px;
   
 }
 
@@ -50,11 +57,11 @@ bottom: 0;
 
 .containerrodapé{
     background-color: rgba(255, 255, 255, 0.717);
-    color: rgb(38, 125, 152);
+    /* color: rgb(228, 229, 229); */
    text-align: center;
     
-    
 }
+
 .containerrodapé ul li {
     list-style: none;
     color: white;
